@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Come out to play</title>
+    <style type= "text/css">
+      body {  background-image:url(http://www.scenicreflections.com/files/Duke%20Nukem%20Forever%20Wallpaper__yvt2.jpg);
+             background-position:bottom right;
+             background-repeat: no-repeat;
+             background-attachment:fixed;
+             //background-color:#D87093;
+             }
+     </style>
+     <style>
+			.Higgins{font-family:Algerian ; font-weight:bold ; color:Red ; font-size:50px;}
+		</style>
+    
+		<script type="text/javascript">
+			
+			var north= true;
+      var south= true;
+      var east= true;
+      var west= true;
+      var score= 0;
+
+      function Btn_North_Click(){
+        if(north===true) {
+        score = score + 5;
+        north=false;
+        }
+        var message="You walk toward the box Shaped building, only to find that it is a Bar that has been locked up...from the outside. The Neon lights flicker on and off. There is a dumpster on the east side of the building."
+        alert(message);
+        }
+        
+      function Btn_West_Click(){
+        if(west===true) {
+        score = score + 5;
+        West=false;
+        }
+        var message="You walk west and find a rusty Shopping cart that has Ducttape and a crowbar."
+        alert(message);
+        }
+        
+       function Btn_East_Click(){
+        if(east===true) {
+          score = score + 5;
+          East=false;
+        }
+        var message="You look east and you see a lone car in this large abandoned parking lot. While you walk up to this car you notice there is a chainsaw and satchel in the backseat."
+        alert(message);
+        }
+        
+       function Btn_South_Click(){
+        if(south===true) {
+        score = score + 5;
+        South=false;
+        }
+        var message="You walked south, there is a man standing alone under a flickering street light."
+        alert(message);
+        }
+        
+        function Btn_Score_Click(){
+        alert(score);
+        }
+      
+		</script>
+ 
+	</head>
+   <body> 
+   <p class="Higgins">
+    Man-Up & Fight Back: 'Till Death Do us Part
+    </p>
+    <br>
+    <textarea name= "comments"
+    rows="6" cols="50"> You are standing in a vacant parking lot that seems as though it has been deserted for quite some time. To the north is a box shaped building that is illuminated with pink neon lights.</textarea>
+    <br>
+     
+            
+            <br>
+            
+            <input type= "button" 
+            value= "North"  
+            onclick= "Btn_North_Click()" />
+            
+            <br>
+            
+           <input type= "button" 
+            value= "West"  
+            onclick= "Btn_West_Click()" />
+            
+            <input type= "button" 
+            value= "East"  
+            onclick= "Btn_East_Click()" />
+            
+             <br>
+            
+            <input type= "button" 
+            value= "South"  
+            onclick= "Btn_South_Click()" />
+            
+            <br>
+            <br>
+            
+            <input type= "button" 
+            value= "Score"  
+            onclick= "Btn_Score_Click()" />
+             <br>
+             <br>
+    
+  
+        <a href= "mailto:Jonathan.Higgins1@marist.edu">
+          <img src= "wmail.jpg" width="70" height="70" alt="links">
+        </a>
+  
+  
+  
+  
+    </body>
+</html>
