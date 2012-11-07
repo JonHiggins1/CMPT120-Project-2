@@ -2,14 +2,13 @@
 	//p4 javascript.js
 	//
 	
-		//<script type="text/javascript">
 
 function location0() {
   updateText( "You are standing in a vacant parking lot and you seem to have missplaced your glasses. To the north you see a vague outline of a building. To the south you see a flickering street light.");
-  btn_north.disabled = true
-  btn_south.disabled = true
-  btn_east.disabled  = true
-  btn_west.disabled  = true
+  btn_north.disabled = false
+  btn_south.disabled = false
+  btn_east.disabled  = false
+  btn_west.disabled  = false
   score = score + 5;
   }
   
@@ -108,4 +107,3 @@ function location9() {
     updateText("To navigate use directional commants. To retrieve and item use 'take'.");
     }
        
-		//</script>

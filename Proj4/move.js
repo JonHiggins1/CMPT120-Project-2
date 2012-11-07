@@ -1,8 +1,6 @@
 	//
 	// move.js
 	//
-	
-		//<script type="text/javascript">
 			
 			var north = 1;
       var south = 2;
@@ -172,4 +170,3 @@
         function init() {
         updateText("You are standing in a vacant parking lot and you seem to have missplaced your glasses. To the north you see a vague outline of a building. To the south you see a flickering street light.");
         }
-		//</script>
